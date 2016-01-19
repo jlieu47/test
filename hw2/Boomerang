@@ -1,0 +1,8 @@
+class Boomerang {
+	public static void main ( String args [] ) {
+		int seconds = 16;
+		int speed = 12;
+		int distance = seconds * speed * 2;
+		System.out.println ( "After 16 seconds, the boomerang, travelling at 12 meters per second, travelled " + distance + " meters. " );
+	}
+}
